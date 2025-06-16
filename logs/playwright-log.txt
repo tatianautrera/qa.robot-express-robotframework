@@ -1,0 +1,53 @@
+{"level":30,"time":"2025-06-06T16:47:00.136Z","pid":8384,"hostname":"laptop-5by5","msg":"Listening on 127.0.0.1:55388"}
+(node:8384) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-06T16:47:00.789Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-06T16:47:01.002Z","pid":8384,"hostname":"laptop-5by5","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-06-06T16:47:01.002Z","pid":8384,"hostname":"laptop-5by5","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-06T16:47:01.002Z","pid":8384,"hostname":"laptop-5by5","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-06T16:47:01.013Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-06T16:47:01.013Z","pid":8384,"hostname":"laptop-5by5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-06T16:47:01.033Z","pid":8384,"hostname":"laptop-5by5","msg":"Changed active context"}
+{"level":30,"time":"2025-06-06T16:47:01.202Z","pid":8384,"hostname":"laptop-5by5","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-06T16:47:01.202Z","pid":8384,"hostname":"laptop-5by5","msg":"Changed active page"}
+{"level":30,"time":"2025-06-06T16:47:03.578Z","pid":8384,"hostname":"laptop-5by5","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/
+Call log:
+[2m  - navigating to "http://localhost:3000/", waiting until "load"[22m
+
+    at newPage (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12570:18)
+    at async PlaywrightServer.newPage (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-06-06T16:47:03.626Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13135:34)
+    at Object.onReceiveHalfClose (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-06-06T16:47:03.627Z","pid":8384,"hostname":"laptop-5by5","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-06-06T16:47:03.667Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.667Z","pid":8384,"hostname":"laptop-5by5","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.669Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.669Z","pid":8384,"hostname":"laptop-5by5","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.671Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.671Z","pid":8384,"hostname":"laptop-5by5","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.673Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.673Z","pid":8384,"hostname":"laptop-5by5","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.676Z","pid":8384,"hostname":"laptop-5by5","msg":"Changed active context"}
+{"level":30,"time":"2025-06-06T16:47:03.677Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-06-06T16:47:03.686Z","pid":8384,"hostname":"laptop-5by5","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-06-06T16:47:03.690Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.691Z","pid":8384,"hostname":"laptop-5by5","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-06T16:47:03.734Z","pid":8384,"hostname":"laptop-5by5","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-06T16:47:03.882Z","pid":8384,"hostname":"laptop-5by5","msg":"End of node method closeAllBrowsers"}

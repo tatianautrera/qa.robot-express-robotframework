@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.3 on win32)" generated="2025-06-16T10:19:51.363657" rpa="false" schemaversion="5">
+<suite id="s1" name="Create" source="C:\estudos\qa.robot-express-robotframework\tests\tasks\create.robot">
+<test id="s1-t1" name="Deve poder cadastar uma nova tarefa" line="7">
+<kw name="Get fixture" owner="base">
+<kw name="Load Json From File" owner="JSONLibrary">
+<msg time="2025-06-16T10:19:51.747533" level="INFO">${data} = {'create': {'user': {'name': 'Steve Jobs', 'email': 'jobs@apple.com', 'password': 'pwd123'}, 'task': {'name': 'Criar uma nova versão do ipod', 'task': ['ios', 'music', 'ipod']}}}</msg>
+<var>${data}</var>
+<arg>${EXECDIR}/resources/fixtures/${file_name}.json</arg>
+<arg>encoding=utf-8</arg>
+<doc>Load JSON from file.</doc>
+<status status="PASS" start="2025-06-16T10:19:51.747055" elapsed="0.000524"/>
+</kw>
+<return>
+<value>${data}[${scenario}]</value>
+<status status="PASS" start="2025-06-16T10:19:51.747657" elapsed="0.000096"/>
+</return>
+<msg time="2025-06-16T10:19:51.747903" level="INFO">${data} = {'user': {'name': 'Steve Jobs', 'email': 'jobs@apple.com', 'password': 'pwd123'}, 'task': {'name': 'Criar uma nova versão do ipod', 'task': ['ios', 'music', 'ipod']}}</msg>
+<var>${data}</var>
+<arg>tasks</arg>
+<arg>create</arg>
+<status status="PASS" start="2025-06-16T10:19:51.746213" elapsed="0.001712"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-16T10:19:51.748440" level="INFO">{'user': {'name': 'Steve Jobs', 'email': 'jobs@apple.com', 'password': 'pwd123'}, 'task': {'name': 'Criar uma nova versão do ipod', 'task': ['ios', 'music', 'ipod']}}</msg>
+<arg>${data}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-16T10:19:51.748258" elapsed="0.000221"/>
+</kw>
+<msg time="2025-06-16T10:19:51.770619" level="INFO">Starting Browser process C:\Users\Tatiana Utrera\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:58772</msg>
+<status status="PASS" start="2025-06-16T10:19:51.745421" elapsed="0.003351"/>
+</test>
+<doc>Cenários de cadastro de tarefas</doc>
+<status status="PASS" start="2025-06-16T10:19:51.364881" elapsed="1.115633"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Create" id="s1" pass="1" fail="0" skip="0">Create</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-06-16T10:19:51.409887" level="WARN">Error in file 'C:\estudos\qa.robot-express-robotframework\resources\base.resource' on line 26: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>
