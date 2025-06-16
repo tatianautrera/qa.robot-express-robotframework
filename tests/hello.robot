@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation        Um exemplo em Robot frameworks
+Documentation        Um exemplo em Robot framework
 
 *** Test Cases ***
 Deve mostrar mensagem de boas vindas
